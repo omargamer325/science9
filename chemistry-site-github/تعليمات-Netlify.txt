@@ -1,0 +1,8 @@
+خطوات نشر مختبر الملفوف على Netlify
+
+1. فك ضغط chemistry-site-netlify.zip.
+2. ارفع مجلد chemistry-site-netlify كاملًا إلى Netlify Drop، وليس index.html وحده.
+3. تأكد أن جذر المجلد يحتوي على index.html ومجلد videos وملف netlify.toml.
+4. بعد اكتمال النشر، افتح رابط الموقع وحدّث الصفحة تحديثًا قويًا.
+
+في النشر عبر Git، اجعل Publish directory = . واترك Build command فارغًا.
